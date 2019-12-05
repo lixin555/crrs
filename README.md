@@ -1,2 +1,3 @@
-# crrs
-A bash script to collate file directories automatically and remove old folders to release space
+# crrs.sh : A script to collate file directories automatically and remove old folders to release space
+
+We have several monitors in our laboratories, and they send images to our host to backup these vital data. But there are only 1440 images to store everyday because it was set to transfer data every minute. Absolutely, this configuration is insufficient for us to monitor labs, so we want to reduce the interval of transferring information(e.g. 2 seconds). However, there will be 43,200 images to store, and the directory will be pretty chaos. So the process of loading will be very slow when we open the directory. An idea flashed to my mind is that we can ask host to collate these photos automatically and create different folders to store these images. And the operate to delete data  in these folders at regular intervals will be more easy. So this script is written by me to realize these tasks above.
